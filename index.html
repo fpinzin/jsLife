@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+	<link rel="stylesheet" type="text/css" media="all" href="style/style.css" />
+	<script type='text/javascript' src='scripts/shortcut.js'></script>
+	<script type='text/javascript' src='scripts/life.js'></script>
+</HEAD>
+<BODY>
+
+<div class="wrapper">
+     <div class="contentarea">
+		<div id="earth"></div>
+     </div>
+     <div class="sidebar">
+		<button id="btnClear" onclick="clearCells()">(C)lear grid</button>
+		<button id="btnRandom" onclick="randomize()">(P)opulate</button> </BR>
+		<button id="btnCycle" onclick="tick()">Run (1) cycle</button>
+		<button id="btnRun" onclick="run()">(R)un Continuous</button> </p><p><div id="iterationCount"></div></p>
+		
+
+	<P><h3>Buttons</h3>
+	<ul>
+		<li>(C)lear: clears the grid of any live cells.
+		<li>(P)opulate: randomly populates a third of the grid with live cells.  
+		<li>Run (1) cycle: iterates through the 'game' 1 full cycle.
+		<li>(R)un continuous : lets the game run repeatedly through the cycles until either all live cells die or you stop the game.
+		<li>Stop: stops the continuous mode (only appears when continuous is selected).
+	</ul></P>
+	<p>* Note: short-cut keys for the buttoms are contained within brackets (e.g. 'c' will clear the grid)</BR>
+	* You can also click any of the cells to change their state.</p>
+	
+	<P>I've always known <i>just enough</i> javascript to get through what I needed and for some reason always pushed off learning it to focus on 'backend' langages.  Recently however, I decided to try out an online course and with several of the segments under my belt, thought I'd take a crack at writting the game of life entirely in JS.  This represents what I'll call my alpha version.  Who knows if I'll ever revisit it again but I thought it was a decent start.</P>
+
+     </div>
+	<div class="footer">
+		<P>I've only tried this on whatever version of Chrome is currently on my PC so your mileage may vary.</p>
+		<P>Feel free to use the code for whatever purpose suites you.  This was a learning excercise for me so if it helps you do the same, good luck!</p>
+		<p>Thanks to <a href="http://www.openjs.com/scripts/events/keyboard_shortcuts/">OpenJS</a> for the keyboard shortcut code.</p>
+	</div>
+</div> 
+
+</BODY>
+</HTML>

@@ -1,0 +1,66 @@
+.earth {
+	display: table; border:1px solid #525252;
+}
+
+.row{
+	display: table-row;
+}
+
+.cell{
+	display: table-cell; border: 1px solid #525252; height: 12px; width: 10px;
+}
+
+.alive{
+	background-color:#000000;
+}
+
+.dead {
+background-color:#FFFFFF;
+}
+
+
+
+
+.wrapper{
+   position: center;
+//   float: left;
+//   left: 322px;
+   width: 960px;
+//   margin-bottom: 20px;
+   padding: 20px;
+//   background-color: #cccccc
+}
+.contentarea{
+   position: relative;
+   float: left;
+   left: 0px;
+   width: 610px;
+   height: 630px;
+//   background-color: #828282
+}
+.sidebar{
+   position: relative;
+   float: right;
+   left: 5px;
+   width: 330px;
+   height: 630px;
+   padding: 10px;
+//   background-color: #828282
+}
+
+.footer{
+//   position:absolute;
+//   bottom:0;
+//   width:100%;
+//   margin-bottom: 20px;
+   height:60px;   /* Height of the footer */
+}
+
+body {
+   border-width: 0px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 90%;
+//   background-color: #e7e7de;
+   background-color:#9FB6CD;
+}
